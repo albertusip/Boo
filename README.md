@@ -1,40 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# BOO Take‑Home Assignment
 
-## Getting Started
+A Next.js (Pages Router) UI implementation inspired by the BOO questions page.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Reference (target UI):
+```
+https://boo.world/u/questions/l2rKda/if-you-could-solve-one-world-problem-what-would
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to run
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# install dependencies
+npm install
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# run dev server
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# production build
+npm run build
 
-## Learn More
+# start production server
 
-To learn more about Next.js, take a look at the following resources:
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Time spent (note)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Functional code work took about 4 hours based on the GitHub commits.
+- I started ~30 minutes earlier only to initialize the project via npm.
+- The actual implementation work started at 09:00 (GMT+7) and finished just before 13:00 (GMT+7).
+- This timing excludes the README update. Apologies for any inconvenience, and thank you for understanding.
 
-## Deploy on Vercel
+## What I completed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Pages Router structure with a single dynamic question page at `/u/questions/[code]/[slug]`.
+- Core layout: header, sidebar, universe list, timeline posts, and related posts.
+- Data flow using local mocks; selected related post becomes the highlighted question at the top of the timeline.
+- Consistent component structure with folders + barrel exports.
+- TailwindCSS styling applied throughout.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## What I skipped
+
+- Sidebar navigation redirects are not implemented.
+- Universe list redirects are not implemented.
+- Sign‑up / sign‑in CTA does not redirect yet.
+- Some UI details are not yet fully identical to the reference page.
+
+## What I’d improve with more time
+
+- Improve accessibility (focus states, aria labels, form semantics).
+- Refine responsive behavior on small screens (spacing, sticky behavior, scroll containers).
+- Replace mocks with real API calls and caching (SWR/React Query).
+- Add loading/error states and empty‑state UX.
+- Implement active/selected state in Related Posts list.
