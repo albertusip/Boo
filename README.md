@@ -27,10 +27,11 @@ npm run start
 
 ## Time spent (note)
 
-- Functional code work took about 4 hours based on the GitHub commits.
+- The actual implementation work started at 09:00 (GMT+7) and finished just before 13:00 (GMT+7), as shown in the attached image.
 - I started ~30 minutes earlier only to initialize the project via npm.
-- The actual implementation work started at 09:00 (GMT+7) and finished just before 13:00 (GMT+7).
 - This timing excludes the README update. Apologies for any inconvenience, and thank you for understanding.
+<img width="1512" height="857" alt="Screenshot 2026-01-29 at 13 15 21" src="https://github.com/user-attachments/assets/5dc63cef-3f41-480f-b1d3-d7b8df0d9c5e" />
+
 
 ## What I completed
 
