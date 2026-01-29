@@ -30,8 +30,8 @@ npm run start
 - The actual implementation work started at 09:00 (GMT+7) and finished just before 13:00 (GMT+7), as shown in the attached image.
 - I started ~30 minutes earlier only to initialize the project via npm.
 - This timing excludes the README update. Apologies for any inconvenience, and thank you for understanding.
-<img width="1512" height="857" alt="Screenshot 2026-01-29 at 13 15 21" src="https://github.com/user-attachments/assets/5dc63cef-3f41-480f-b1d3-d7b8df0d9c5e" />
-
+<img width="1512" height="922" alt="image" src="https://github.com/user-attachments/assets/fef2a067-94fe-42b4-8cba-732e40f1ccb1" />
+<img width="1512" height="922" alt="image" src="https://github.com/user-attachments/assets/c2d1b396-5cb1-41b8-94d8-f08f6f7a4612" />
 
 ## What I completed
 
