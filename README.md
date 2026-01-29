@@ -31,7 +31,9 @@ npm run start
 - I started ~30 minutes earlier only to initialize the project via npm.
 - This timing excludes the README update. Apologies for any inconvenience, and thank you for understanding.
 <img width="1512" height="922" alt="image" src="https://github.com/user-attachments/assets/fef2a067-94fe-42b4-8cba-732e40f1ccb1" />
-<img width="1512" height="922" alt="image" src="https://github.com/user-attachments/assets/c2d1b396-5cb1-41b8-94d8-f08f6f7a4612" />
+- Initial commit with empty file
+<img width="1512" height="922" alt="image" src="https://github.com/user-attachments/assets/60254c82-105f-477e-94fc-1cf44d35d580" />
+
 
 ## What I completed
 
